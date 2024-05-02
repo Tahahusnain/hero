@@ -1,6 +1,4 @@
 import express from "express";
-import { Vonage } from "@vonage/server-sdk";
-
 const app = express();
 const port = 3000;
 app.use(express.json());
