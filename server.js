@@ -13,7 +13,7 @@ const obj = {
 
 // Example route to trigger OTP sending
 app.get("/", async (req, res) => {
-  res.send(obj);
+  res.send("hello");
 });
 
 app.listen(port, () => {
